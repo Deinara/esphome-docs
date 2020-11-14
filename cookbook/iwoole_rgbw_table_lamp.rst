@@ -34,8 +34,8 @@ Foto's van binnen hier
 2. ESPHome configuration
 ------------------------
 Since there is only one RGBW light to configure the .yaml file is fairly straightforward.
-Alternatively, you could configure each channel as a separate light of course.
-I prefer to use the ``color_interlock`` config option along with the configuration below, but it is not required. 
+Alternatively, you could configure each channel as a separate light if desired.
+I prefer to use the ``color_interlock`` config option along with the configuration below. 
 
 2.1 Example configuration
 *************************
@@ -88,7 +88,7 @@ I prefer to use the ``color_interlock`` config option along with the configurati
 
 3. Flashing
 -----------
-There are two ways to flash ESPHome onto this device.
+There are two ways to get ESPHome onto this device.
 
 3.1 Tuya-convert
 ***********
@@ -100,7 +100,13 @@ There are two ways to flash ESPHome onto this device.
 3.2 Serial connection
 *********************
 .. warning::
-    The circuit inside will be exposed to mains voltage. Do not connect your device to the mains when programming. Flashing this device via a serial connection will involve cutting through insulating heat-shrink tubing which will have to be replaced. If you are uncomfortable with this, or are not confident around mains voltage, do not attempt to do this! The Tuya-convert method is preferred.
+    The circuit inside will be exposed to mains voltage. Do not connect your device to the mains when programming. Flashing this device via a serial connection will involve soldering and cutting through insulating heat-shrink tubing which will have to be replaced. If you are uncomfortable with this, or are not confident around mains voltage, do not attempt to do this! Using the Tuya-convert method is preferred.
+
+1. Disconnect the device from mains voltage!
+2. Open the device. The plastic and aluminium halves can be separated by twisting the plastic part counter-clockwise DOUBLECHECK!
+3. Remove the two screws holding the round plate with the LEDs. It is connected to the main PCB with a little cable. Make note of the orientation of this connection to ensure you reconnect it correctly later.
+4. Carefully remove the heat-shrink tubing around the two main PCBs.
+5. Solder the following wires onto the PCB
 
 See Also
 --------
