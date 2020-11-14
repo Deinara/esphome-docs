@@ -95,7 +95,7 @@ There are two ways to get ESPHome onto this device.
 .. note::
     According to `blakadder.com <https://templates.blakadder.com/iwoole_table_lamp.html>`__ if you connect the device to the tuya smart app the firmware will upgrade and the device will not be flashable via this method anymore! 
 
- 
+Flashing 3 times
 
 3.2 Serial connection
 *********************
