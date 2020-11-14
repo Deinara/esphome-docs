@@ -16,9 +16,11 @@ It is available from various retailers online or directly from `iwoole.com <http
 .. note::
     The following information relates to the desk model depicted above. There are free-standing and a desk version with a longer arm versions available. They are likely to share the same internals and configuration, but it is not certain. 
 
-The device is a basic 4-channel PWM RGBW light in a simple housing.
+My device had no external markings at all.
+
+The device is a basic 4-channel PWM RGBW light in a simple elegant housing.
 The LEDs are not individually addressable.
-No other sensors, outputs or status leds are available.
+No other sensors, outputs or status LEDs are available.
 
 The mosfets for the different color channels are connected as follows:
 
@@ -89,6 +91,7 @@ I prefer to use the ``color_interlock`` config option along with the configurati
 3. Flashing
 -----------
 There are two ways to get ESPHome onto this device.
+For both ways you will need to get the binary file with ESPHome's software by compiling your configuration and then downloading the binary.
 
 3.1 Tuya-convert
 ***********
@@ -103,7 +106,7 @@ Flashing 3 times
     The circuit inside will be exposed to mains voltage. Do not connect your device to the mains when flashing. Flashing this device via a serial connection will involve soldering and cutting through insulating heat-shrink tubing which will have to be replaced. If you are uncomfortable with this, or are not confident around mains voltage, do not attempt to do this! Using the Tuya-convert method is preferred.
 
 1. Disconnect the device from mains voltage!
-2. Open the device. The plastic and aluminium halves can be separated by twisting the plastic part counter-clockwise DOUBLECHECK!
+2. Open the device. The plastic and aluminium halves can be separated by twisting the plastic part counter-clockwise.
 3. Remove the two screws holding the round plate with the LEDs. It is connected to the main PCB with a little cable. Make note of the orientation of this connection to ensure you reconnect it correctly later.
 4. Carefully remove the heat-shrink tubing around the two main PCBs.
 5. Solder the following wires onto the PCB
