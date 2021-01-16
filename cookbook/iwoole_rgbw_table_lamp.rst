@@ -103,7 +103,7 @@ Flashing 3 times
 3.2 Serial connection
 *********************
 .. warning::
-    The circuit inside will be exposed to mains voltage. Do not connect your device to the mains when flashing. Flashing this device via a serial connection will involve soldering and cutting through insulating heat-shrink tubing which will have to be replaced. If you are uncomfortable with this, or are not confident around mains voltage, do not attempt to do this! Using the Tuya-convert method is preferred.
+    The circuit inside will be exposed to mains voltage. Do not connect your device to the mains when flashing. Flashing this device via a serial connection will involve precarious soldering and cutting through insulating heat-shrink tubing which will have to be replaced. If you are uncomfortable with this, or are not confident around mains voltage, do not attempt to do this! Using the Tuya-convert method is preferred.
 
 1. Disconnect the device from mains voltage!
 2. Open the device. The plastic and aluminium halves can be separated by twisting the plastic part counter-clockwise. If you're okay with a few scuffs you can also use a screwdriver to seperate the two halves.
